@@ -2,82 +2,94 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>異世界の記録</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>柴犬の物語</title>
 
 <style>
 body {
     margin: 0;
     padding: 0;
-    background: #0f0f1a;
-    color: #eaeaea;
-    font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
-    line-height: 1.9;
+    background: #f5f5f5;
+    font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+    color: #222;
 }
 
-.container {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 40px 20px;
+/* pantalla completa */
+.novel {
+    height: 90vh;
+    width: 100vw;
+
+    background: #fff;
+    padding: 24px;
+
+    box-sizing: border-box;
+
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    line-height: 2.0;
+    letter-spacing: 0.06em;
 }
 
+/* título más grande */
 .title {
-    text-align: center;
     font-size: 28px;
-    margin-bottom: 40px;
-    color: #ffd36e;
-    letter-spacing: 2px;
+    font-weight: bold;
+    margin-left: 30px;
 }
 
-.chapter {
-    font-size: 16px;
-    margin-bottom: 20px;
+/* texto principal MÁS GRANDE */
+.p {
+    font-size: 2rem;
+    margin-left: 24px;
 }
 
+/* diálogo */
 .dialog {
-    color: #9ad1ff;
+    font-size: 20px;
+    color: #1f6feb;
 }
 
-.thought {
-    color: #c8c8c8;
-    font-style: italic;
+/* separación narrativa */
+.sep {
+    margin-left: 35px;
+    color: #aaa;
+    font-size: 18px;
 }
-
-.box {
-    border-left: 3px solid #ffd36e;
-    padding-left: 12px;
-    margin: 20px 0;
-    color: #ffffff;
-}
-
 </style>
 </head>
 
 <body>
 
-<div class="container">
+<div class="novel">
 
-    <div class="title">異世界転生したけど、何も始まらない</div>
+    <div class="title">柴犬と雨の帰り道</div>
 
-    <div class="chapter">
-        気がついたとき、俺は見知らぬ森の中に立っていた。<br>
-        空は不自然なほど青く、風は妙に静かだった。
+    <div class="p">
+        その柴犬は、駅前の屋根の下から動かなかった。<br>
+        雨の日も、風の日も、ずっとそこにいた。
     </div>
 
-    <div class="chapter dialog">
-        「……ここはどこだ？」  
+    <div class="p">
+        誰かを待っているのか、それともただ居場所を失ったのかは分からない。
     </div>
 
-    <div class="chapter thought">
-        （夢、なのか？それとも……いや、現実だ）
+    <div class="p dialog">
+        「今日もいるな」
     </div>
 
-    <div class="box">
-        足元には古びた剣が落ちていた。錆びているが、なぜか妙な存在感がある。
+    <div class="p">
+        少年は立ち止まり、小さく息を吐いた。
     </div>
 
-    <div class="chapter">
-        選択肢はない。進むしかない。<br>
-        それが、この世界の“始まり”だった。
+    <div class="sep">――</div>
+
+    <div class="p">
+        その犬の目は、ただ一点を見ていた。<br>
+        過去でも未来でもなく、“今”だけを見ている目だった。
     </div>
 
 </div>
